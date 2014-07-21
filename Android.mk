@@ -1,5 +1,5 @@
 
-ifeq ($(strip $(BOARD_USES_ALSA)),true)
+ifeq ($(strip $(BOARD_USES_ALSA_AUDIO)),true)
 ifeq ($(strip $(BUILD_WITH_ALSA_UTILS)),true)
 
 LOCAL_PATH:= $(call my-dir)

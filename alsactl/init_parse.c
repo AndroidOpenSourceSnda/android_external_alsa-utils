@@ -31,6 +31,7 @@
 #include <errno.h>
 #include <fnmatch.h>
 #include <sys/stat.h>
+#include <sys/socket.h>
 #include <sys/un.h>
 #include <sys/wait.h>
 #include <sys/select.h>
